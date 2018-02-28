@@ -20,6 +20,11 @@ else if (difference < 0 ) return -1;
 else
         return 0;
     }
+    @Override
+    public boolean equals(Object o)
+    {
+        return false;
+    }
 
 
     private void simplify()

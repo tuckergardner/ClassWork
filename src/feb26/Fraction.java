@@ -23,7 +23,11 @@ else
     @Override
     public boolean equals(Object o)
     {
-        return false;
+        if (o instanceof Fraction)
+        {
+            return this.compareTo((Fraction) o)==0;
+        }
+        else return false;
     }
 
 

@@ -29,6 +29,10 @@ else
         }
         else return false;
     }
+    public String tostring()
+    {
+        return num + "/" + denom;
+    }
 
 
     private void simplify()
